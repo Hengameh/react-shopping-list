@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #d4d907
+    url(https://images.unsplash.com/photo-1534082753658-1dcb40af5719?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: scroll;
+  background-position-x: right;
+}
+
+.App {
+  background-color: #ffffff;
+  border: 0;
+  width: 470px;
+  min-height: 500px;
+  padding-bottom: 15px;
+  margin: 5px auto;
+  border-radius: 15px;
+  position: fixed;
+  right: 12%;
+  top: 10%;
+  background: transparent;
+}
+
+header {
+  color: #156910;
+  width: 100%;
+  font-family: cursive;
+  line-height: 1.2;
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+#shopping-list-form input {
+  background-color: #f3f3f3;
+  width: 250px;
+  height: 50px;
+  padding: 20px;
+  margin: 25px 20px 20px 20px;
+  font-size: 14px;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 10px;
+  box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.28);
+  -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.28);
+  -moz-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.28);
+}
+
+#shopping-list-form input::placeholder {
+  color: #5c5b5b;
+}
+
+#shopping-list-form input:focus,
+#shopping-list-form button:focus {
+  outline: none;
+}
+
+#shopping-list-form button {
+  background-color: #096296;
+  color: rgb(255, 255, 255);
+  height: 50px;
+  width: 160px;
+  font-weight: bold;
+  padding: 0px 10px;
+  border-radius: 10px;
+  border: 0px;
+  cursor: pointer;
+  -webkit-box-shadow: 1px 3px 7px -5px #000000;
+  box-shadow: 1px 3px 7px -5px #000000;
+  text-shadow: 1px 1px 0 #000000;
+  transition: 0.3s;
+}
+
+#shopping-list-form button:hover {
+  color: #ffffff;
+  background-color: #2c7faf;
+  text-shadow: 1px 1px 0 #2b2b2b;
+}
+
+#shopping-list-form button:disabled {
+  background-color: #5a5a5a;
+  text-shadow: 1px 1px 0 #000000;
+  color: rgb(255, 255, 255);
+  opacity: 95%;
+}
+
+#shopping-list-form button:disabled:hover {
+  background-color: #6e6e6e;
+  cursor: not-allowed;
+}
+
+/* ------Media Queries----- */
+@media only screen and (max-width: 1600px) {
+  .App {
+    right: 8%;
+    transition: 0.9s;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .App {
+    right: 6%;
+    transition: 0.9s;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  .App {
+    width: initial;
+    padding-bottom: 12px;
+    margin: 0px;
+    width: 75%;
+    right: 9%;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+
+  #shopping-list-form {
+    padding: 30px;
+  }
+
+  #shopping-list-form input {
+    display: block;
+    margin: 10px;
+    width: 95%;
+    transition: 0.9s;
+  }
+
+  #shopping-list-form button {
+    display: block;
+    width: 95%;
+    margin: 10px;
+    transition: 0.9s;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .App {
+    right: 10%;
+    width: 80%;
+    transition: 0.9s;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .App {
+    width: 85%;
+    right: 8%;
+    transition: 0.9s;
+  }
+
+  h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+
+  #shopping-list-form {
+    padding: 15px;
+  }
+
+  #shopping-list-form input {
+    display: initial;
+    margin: 0px;
+    width: 100%;
+    transition: 0.9s;
+    margin-bottom: 13px;
+  }
+
+  #shopping-list-form button {
+    display: initial;
+    margin: 0px;
+    width: 100%;
+    transition: 0.9s;
+  }
+}
