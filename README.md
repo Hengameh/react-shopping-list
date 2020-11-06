@@ -1,9 +1,9 @@
 # React Shopping List
 ###### My first Shopping List, written in React
 
-[![Demo React Shopping List App](./public/demo.jpg)](https://hengameh.github.io/react-shopping-list/)
+[![Demo React Shopping List App](public/demo.jpg)](https://hengameh.github.io/react-shopping-list/)
 
-[![Demo React Shopping List App](./public/demo(Mobile).jpg)](https://hengameh.github.io/react-shopping-list/)
+[![Demo React Shopping List App](public/demo(Mobile).jpg)](https://hengameh.github.io/react-shopping-list/)
 
 **Demo:** https://hengameh.github.io/react-shopping-list/
 
@@ -29,7 +29,7 @@ Photo by [Hamed Daram](https://unsplash.com/@hameddaram?utm_source=unsplash&utm_
 Licensed under the [MIT License](LICENSE)
 ____________________________________________________________________________
 
-## Available Scripts
+## How to run this project locally
 
 In the project directory, you can run:
 
