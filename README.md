@@ -1,9 +1,9 @@
 # React Shopping List
 ###### My first Shopping List, written in React
 
-[![Demo React Shopping List App](public/demo.jpg)](https://hengameh.github.io/react-shopping-list/)
+[![Demo React Shopping List App](public/demo.png)](https://hengameh.github.io/react-shopping-list/)
 
-[![Demo React Shopping List App](public/demo(Mobile).jpg)](https://hengameh.github.io/react-shopping-list/)
+[![Demo React Shopping List App](public/demo(Mobile).png)](https://hengameh.github.io/react-shopping-list/)
 
 **Demo:** https://hengameh.github.io/react-shopping-list/
 
