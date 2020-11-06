@@ -1,8 +1,40 @@
+# React Shopping List
+###### My first Shopping List, written in React
+
+[![Demo React Shopping List App](./public/demo.jpg)](https://hengameh.github.io/react-shopping-list/)
+
+[![Demo React Shopping List App](./public/demo(Mobile).jpg)](https://hengameh.github.io/react-shopping-list/)
+
+**Demo:** https://hengameh.github.io/react-shopping-list/
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Overview
+Here you found my simple, responsive React Shopping list. Now find out about the basic requirement of this app
+
+1. Create React apps with no build configuration ([Creating an App](https://github.com/facebook/create-react-app#creating-an-app))
+2. This app will display a text input for the user, where they will be able to write a shopping item. Eg. "a dozen eggs", "detergent".
+3. A button labeled "Add to Shopping list" should be displayed beside the input. When clicked, this button should add the user's input to a list of shopping items.
+4. Blank items should not be added to the list. This can happen if the user presses the add button without writing down a task.
+5. Users should be able to add items to the list by using the "Enter" key as well.
+6. The list could potentially have 0 to multiple items.
+7. After adding an item, the text input must be emptied automatically.
+8. Each list item must display the shopping item name and a button labeled "delete".
+9. When clicking on the delete button, the list item should be removed from the list.
+
+Note: Like always make sure to break down this project into steps rather than trying to do everything at once. Enjoy!
+
+Photo by [Hamed Daram](https://unsplash.com/@hameddaram?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/abstract-background?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+Licensed under the [MIT License](LICENSE)
+____________________________________________________________________________
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+Install the dependencies in the local node_modules folder.
 
 ### `npm start`
 
@@ -12,57 +44,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
