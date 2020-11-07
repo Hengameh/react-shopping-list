@@ -58,7 +58,7 @@ class App extends Component {
       <div className="App">
         <header>
           <h1>Shopping List</h1>
-          <form id="shopping-list-form">
+          <form id="shopping-list-form" onSubmit={this.addItem}>
             <input
               name="list-item"
               type="text"
@@ -73,7 +73,6 @@ class App extends Component {
                 !this.state.currentItem.text ||
                 !this.state.currentItem.text.trim().length
               }
-              onClick={this.addItem}
             >
               Add to Shopping list
             </button>
