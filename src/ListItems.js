@@ -14,7 +14,11 @@ function ListItems(props) {
       <ul className="shopping-items-list">
         {myList.map((item) => (
           <li key={item.key}>
-            <span>{item.text}</span>
+            <input type="text" 
+              id={item.key} 
+              value={item.text}
+              onChange = {(e) => props.updateItem(e.target.value, item.key)}
+              />
             <button
               className="delete-btn"
               onClick={() => props.deleteItem(item.key)}

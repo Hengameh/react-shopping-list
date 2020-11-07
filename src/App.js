@@ -17,6 +17,7 @@ class App extends Component {
 
     this.addItem = this.addItem.bind(this);
     this.handleInput = this.handleInput.bind(this);
+    this.updateItem = this.updateItem.bind(this);
     this.deleteItem = this.deleteItem.bind(this);
   }
 
@@ -44,12 +45,24 @@ class App extends Component {
     }
   }
 
+  updateItem(text, key) {
+    const shoppingList = this.state.shoppingList;
+    shoppingList.map(item => {
+      if (item.key === key){
+        item.text = text;
+      }
+    }); 
+    this.setState ({
+      shoppingList: shoppingList
+    });
+  }
+
   deleteItem(key) {
     const filteredItems = this.state.shoppingList.filter(
       (item) => item.key !== key
     );
     this.setState({
-      shoppingList: filteredItems,
+      shoppingList: filteredItems
     });
   }
 
@@ -81,6 +94,7 @@ class App extends Component {
 
         <ListItems
           shoppingList={this.state.shoppingList}
+          updateItem={this.updateItem}
           deleteItem={this.deleteItem}
         />
 

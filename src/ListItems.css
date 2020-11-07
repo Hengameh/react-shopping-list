@@ -68,16 +68,32 @@ li {
   hyphens: auto;
 }
 
-li span {
+li input {
+  width: 75%;
   margin-left: 19px;
+  background-color: transparent;
+  color:#292929;
+  border:0;
+  font-size: 20px;
+  text-overflow: ellipsis;
 }
+
+li input:focus{
+  outline: none; 
+  color:#235800;
+}
+
+li input:hover{
+  font-weight: bold;
+}
+
 li:last-child {
   border: none;
 }
 
 li:hover {
   background: #fbca03;
-  font-size: 20px;
+  font-size: 19.5px;
   font-weight: bold;
   -webkit-transition: font-size 0.5s ease, background-color 0.5s ease;
   -moz-transition: font-size 0.5s ease, background-color 0.5s ease;
@@ -121,6 +137,11 @@ li:hover {
 @media only screen and (max-width: 680px) {
   .shopping-items-list {
     max-height: 470px;
+  }
+
+  li input {
+    width: 75%;
+    margin-left: 10px;
   }
 
   .delete-btn {
